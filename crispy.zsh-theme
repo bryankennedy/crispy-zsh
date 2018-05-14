@@ -165,9 +165,17 @@ extract () {
 ###############################################################################
 # Vim
 ###############################################################################
+# Aliases for MacVim if it exists
+vipath=$(which mvim 2> /dev/null)
+if [ ! -z $vipath  ] ; then
+  alias vi="mvim"
+#  alias vim="mvim"
+fi
+
 # ci is a command for the RCS VCS. I don't use it. But I often mistype vi
 # as ci, so I'm aliasing it to prevent that.
 alias ci="vi"
+
 
 ###############################################################################
 # Git
