@@ -4,8 +4,8 @@ Moving my [Bash scripts](https://github.com/bryankennedy/best-bash) to ZSH
 # Install
 ## Overview
 * Install this
-* Install Oh My Zsh (OMZ)
-* Symlink the crispy theme OMZ
+* Install [ Oh My Zsh ](http://ohmyz.sh/)
+* Symlink the crispy theme into Oh My Zsh
 * Set crispy as the theme
 
 ## Details
