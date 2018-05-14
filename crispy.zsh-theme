@@ -1,5 +1,12 @@
 ZSH_THEME="crispy"
 
+# Path
+export PATH="/usr/local/sbin:$PATH"
+
+# Set the default editor, mainly for Git, but for other things too
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # Autojump config
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
