@@ -217,6 +217,13 @@ alias gclean='git branch --merged master | grep -v "\* master" | xargs -n 1 git 
 #alias git-permission-reset='!git diff -p -R | grep -E \"^(diff|(old|new) mode)\" | git apply'
 alias not-git='git status --ignored'
 
+
+###############################################################################
+# Applications
+###############################################################################
+# Sourcetree
+alias stree='/Applications/Sourcetree.app/Contents/Resources/stree'
+
 # Opens the github page for the current git repository in your browser
 # from https://github.com/jasonneylon/dotfiles/
 function github() {
