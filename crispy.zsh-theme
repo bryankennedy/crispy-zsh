@@ -217,6 +217,8 @@ alias gclean='git branch --merged master | grep -v "\* master" | xargs -n 1 git 
 #alias git-permission-reset='!git diff -p -R | grep -E \"^(diff|(old|new) mode)\" | git apply'
 alias not-git='git status --ignored'
 
+# Alias hub as git
+eval "$(hub alias -s)"
 
 ###############################################################################
 # Applications
