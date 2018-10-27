@@ -31,6 +31,9 @@ alias mv="mv -i"
 alias rm="rm -i"
 # Readable path
 alias path='echo -e ${PATH//:/\\n}'
+# Node development
+alias ys="yarn start"
+alias yb="yarn start"
 
 ###############################################################################
 # Listing
