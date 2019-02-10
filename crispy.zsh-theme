@@ -10,6 +10,9 @@ export EDITOR="$VISUAL"
 # Autojump config
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
+# Marker config
+[[ -s "$HOME/.local/share/marker/marker.sh" ]] && source "$HOME/.local/share/marker/marker.sh"
+
 # Correct spelling mistakes in paths and arguments
 setopt correctall
 
