@@ -172,7 +172,7 @@ extract () {
 # Vim
 ###############################################################################
 # Aliases for MacVim if it exists
-vipath=$(which mvim 2> /dev/null)
+vipath=$(which mvim > /dev/null)
 if [ ! -z $vipath  ] ; then
   alias vi="mvim"
 #  alias vim="mvim"
