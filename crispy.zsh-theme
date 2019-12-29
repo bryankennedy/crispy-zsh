@@ -285,6 +285,7 @@ alias reload='. ~/.zshrc'
 #"
 
 # I'm trying the Pure prompt to see how it works for me.
+autoload -U promptinit; promptinit
 zstyle :prompt:pure:user color magenta
 zstyle :prompt:pure:host color yellow
 prompt pure
