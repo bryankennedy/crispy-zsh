@@ -303,6 +303,7 @@ alias i='a -e idea' # quick opening files with IntelliJIDEA
 
 # I'm trying the Pure prompt to see how it works for me.
 autoload -U promptinit; promptinit
-zstyle :prompt:pure:user color magenta
+zstyle :prompt:pure:path color blue
+zstyle :prompt:pure:host color yellow
 zstyle :prompt:pure:host color yellow
 prompt pure
