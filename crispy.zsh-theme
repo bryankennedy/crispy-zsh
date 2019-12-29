@@ -263,7 +263,24 @@ alias geni='convert -size 100x100 xc: +noise Random random.png'
 ###############################################################################
 # Reload config
 ###############################################################################
-alias reload='. ~/.zshrc'
+alias reload='source ~/.zshrc'
+
+###############################################################################
+# FASD
+###############################################################################
+alias a='fasd -a'        # any
+alias s='fasd -si'       # show / search / select
+alias d='fasd -d'        # directory
+alias f='fasd -f'        # file
+alias sd='fasd -sid'     # interactive directory selection
+alias sf='fasd -sif'     # interactive file selection
+alias z='fasd_cd -d'     # cd, same functionality as j in autojump
+alias zz='fasd_cd -d -i' # cd with interactive selection
+# I used to use autojump instead of fasd. This helps me keep that alias memory.
+alias j='fasd_cd -d'
+alias v='f -e vim' # quick opening files with Vim
+alias o='a -e open' # quick opening files with Finder
+alias i='a -e idea' # quick opening files with IntelliJIDEA
 
 ###############################################################################
 # Prompt
