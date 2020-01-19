@@ -242,6 +242,7 @@ function github() {
     open $giturl
   fi
 }
+alias gh='github'
 
 ###############################################################################
 # Networking
