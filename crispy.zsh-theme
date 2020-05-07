@@ -243,6 +243,8 @@ function github() {
   fi
 }
 alias gh='github'
+# Shorter Terraform command
+alias tf='terraform'
 
 ###############################################################################
 # Networking
