@@ -7,6 +7,11 @@ export PATH="/usr/local/sbin:$PATH"
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+# nvm makes zsh slow
+# Only load it when it's needed
+export NVM_LAZY_LOAD=true
+export NVM_COMPLETION=true
+
 # Autojump config
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
