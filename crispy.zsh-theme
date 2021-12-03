@@ -227,6 +227,7 @@ alias gshl='git stash list --date=relative'
 alias gclean='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
 #alias git-permission-reset='!git diff -p -R | grep -E \"^(diff|(old|new) mode)\" | git apply'
 alias not-git='git status --ignored'
+alias lg='lazygit'
 
 ###############################################################################
 # Applications
